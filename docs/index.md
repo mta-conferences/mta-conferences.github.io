@@ -4,13 +4,13 @@ hide:
   - toc
 ---
 
-<div class="hero-card">
-  <img src="https://picsum.photos/800/400?grayscale" alt="مقاله ویژه">
+<a href="blog/posts/pomodoro/" class="hero-card">
+  <img src="pomodoro.png" alt="پومودورو">
   <div class="hero-content">
-    <h2>واکاوی سوگیری تأیید در تصمیم‌گیری‌های کلان و رفتار جمعی</h2>
-    <div class="mag-meta">میز شناخت و منطق | تحریریه عقل و انگیزش</div>
+    <h2>پومودورو؛ آیا ۲۵ دقیقه مطالعه می‌تواند یادگیری را بهتر کند؟</h2>
+    <small>میز شناخت و روان‌شناسی یادگیری | تحریریه عقل و انگیزش</small>
   </div>
-</div>
+</a>
 
 ### تازه‌ترین یادداشت‌ها و رویدادها
 <div class="mag-list">
