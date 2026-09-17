@@ -1,5 +1,7 @@
 ---
 date: 2026-09-17
+slug: pomodoro
+
 categories:
   - میز شناخت و روان‌شناسی یادگیری
 tags:
