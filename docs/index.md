@@ -1,17 +1,28 @@
-# اندیشکده عقل و انگیزش
+<div class="hero-card">
+  <img src="https://picsum.photos/800/400?grayscale" alt="مقاله ویژه">
+  <div class="hero-content">
+    <h2>واکاوی سوگیری تأیید در تصمیم‌گیری‌های کلان و رفتار جمعی</h2>
+    <div class="mag-meta">میز شناخت و منطق | تحریریه عقل و انگیزش</div>
+  </div>
+</div>
 
-> بستر پژوهش‌های بین‌رشته‌ای در حوزه مبانی شناخت، تفکر نقاد و علوم انسانی.
+### تازه‌ترین یادداشت‌ها و رویدادها
+<div class="mag-list">
 
----
+  <a href="The-Frist-Conference/" class="mag-item">
+    <img src="https://picsum.photos/200/200?random=1" class="mag-thumb" alt="بندانگشتی">
+    <div class="mag-details">
+      <h3>گزارش و اسلایدهای نشست نخست اندیشکده عقل و انگیزش</h3>
+      <div class="mag-meta">رویدادها علمی | ۱ هفته قبل</div>
+    </div>
+  </a>
 
-## درگاه‌های پایگاه
+  <a href="blog/" class="mag-item">
+    <img src="https://picsum.photos/200/200?random=2" class="mag-thumb" alt="بندانگشتی">
+    <div class="mag-details">
+      <h3>بررسی نسبت میان هیجان، شناخت و انگیزش در کنش عقلانی</h3>
+      <div class="mag-meta">مقالات تحلیلی | ۲ روز قبل</div>
+    </div>
+  </a>
 
-* **[ورود به تالار کنفرانس نخست](https://aqloangizeh.ir/The-Frist-Conference/)**  
-  آرشیو ارائه‌ها و اسلایدهای نخستین همایش برگزارشده.
-
-* **[درباره اندیشکده](about.md)**  
-  آشنایی با اهداف، میزهای پژوهشی و مأموریت‌های علمی ما.
-
----
-
-اندیشکده عقل و انگیزش با هدف تبیین روشمند ادعاها و بازخوانی سنجش‌گرایانه مسائل نظری در علوم انسانی شکل گرفته است.
+</div>
