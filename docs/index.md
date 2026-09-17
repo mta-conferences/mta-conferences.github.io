@@ -1,3 +1,7 @@
+---
+hide:
+  - title
+---
 <div class="hero-card">
   <img src="https://picsum.photos/800/400?grayscale" alt="مقاله ویژه">
   <div class="hero-content">
