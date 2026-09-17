@@ -1,3 +1,8 @@
+nav:
+  - صفحه اصلی: index.md
+  - کنفرانس‌ها:
+      - کنفرانس نخست: https://aqloangizeh.ir/The-Frist-Conference/
+  - درباره ما: about.md
 site_name: اندیشکده عقل و انگیزش
 site_description: Institute of Cognition & Motive
 site_author: اندیشکده عقل و انگیزش
@@ -28,4 +33,4 @@ nav:
   - صفحه اصلی: index.md
   - کنفرانس‌ها:
       - کنفرانس نخست: https://aqloangizeh.ir/The-Frist-Conference/
-  - درباره اندیشکده: about.md
+  - درباره ما: about.md
