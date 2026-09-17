@@ -66,40 +66,40 @@
   font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
 }
-.md-header__button.md-logo {
-  display: flex !important;
-  order: 1;
-  padding: 0 4px;
+.md-typeset h1:first-of-type {
+  display: none !important;
 }
 
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
-  border-radius: 50%;
-  border: 1.5px solid rgba(255, 255, 255, 0.25);
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
+.md-header__button.md-logo {
+  display: inline-flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.md-header__button.md-logo img {
+  display: block !important;
+  border-radius: 50% !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  width: 34px !important;
+  height: 34px !important;
+  object-fit: cover !important;
 }
 
 .md-header__title {
   display: flex !important;
-  order: 2;
-  font-size: 0.95rem;
-  font-weight: bold;
 }
 
 .md-header__title .md-ellipsis {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.2;
+  display: flex !important;
+  flex-direction: column !important;
+  line-height: 1.2 !important;
 }
 
 .md-header__title .md-ellipsis::after {
   content: "Institute of Cognition & Motive";
-  font-size: 0.6rem;
-  font-weight: 400;
-  opacity: 0.85;
-  letter-spacing: 0.3px;
-  margin-top: 2px;
+  font-size: 0.58rem !important;
+  font-weight: 400 !important;
+  opacity: 0.8 !important;
+  margin-top: 2px !important;
 }
  
