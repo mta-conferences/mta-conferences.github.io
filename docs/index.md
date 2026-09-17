@@ -4,13 +4,14 @@ hide:
   - toc
 ---
 
-<a href="blog/2026/09/17/pomodoro/" class="hero-card">
+<a href="blog/posts/pomodoro.md" class="hero-card">
   <img src="pomodoro.png" alt="پومودورو">
   <div class="hero-content">
     <h2>پومودورو؛ آیا ۲۵ دقیقه مطالعه می‌تواند یادگیری را بهتر کند؟</h2>
     <small>میز شناخت و روان‌شناسی یادگیری | تحریریه عقل و انگیزش</small>
   </div>
 </a>
+
 
 <h3 style="margin-top: 28px; font-weight: bold;">تازه‌ترین یادداشت‌ها و رویدادها</h3>
 
