@@ -1,8 +1,7 @@
-heresite_name: اندیشکده عقل و انگیزش
+site_name: اندیشکده عقل و انگیزش
 site_description: Institute of Cognition & Motive
 site_author: اندیشکده عقل و انگیزش
 site_url: https://aqloangizeh.ir
-
 theme:
   name: material
   language: fa
@@ -25,7 +24,6 @@ theme:
     - navigation.tabs
     - search.suggest
     - search.highlight
-
 nav:
   - صفحه اصلی: index.md
   - کنفرانس‌ها:
