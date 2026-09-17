@@ -89,4 +89,22 @@
   letter-spacing: 0.3px;
   margin-top: 2px;
 }
+ @media screen and (max-width: 76.1875em) {
+  .md-header__title {
+    display: flex !important;
+  }
+  .md-header__button.md-logo {
+    display: flex !important;
+    margin-inline-end: 8px;
+  }
+}
+.md-header__inner {
+  display: flex;
+  align-items: center;
+}
+
+.md-header__title {
+  font-size: 0.95rem;
+  font-weight: bold;
+}
  
