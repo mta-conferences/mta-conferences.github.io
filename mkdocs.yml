@@ -1,7 +1,7 @@
-site_name: اندیشکده عقل و انگیزش
-site_description: Institute of Cognition & Motive
-site_author: اندیشکده عقل و انگیزش
-site_url: https://aqloangizeh.ir
+site_name: "اندیشکده عقل و انگیزش"
+site_description: "Institute of Cognition & Motive"
+site_author: "اندیشکده عقل و انگیزش"
+site_url: "https://aqloangizeh.ir"
 
 use_directory_urls: true
 
@@ -15,20 +15,20 @@ theme:
       accent: indigo
       toggle:
         icon: material/brightness-7
-        name: تغییر به حالت تاریک
+        name: Dark mode
     - scheme: slate
       primary: blue grey
       accent: indigo
       toggle:
         icon: material/brightness-4
-        name: تغییر به حالت روشن
+        name: Light mode
   features:
     - navigation.tabs
     - search.suggest
     - search.highlight
 
 nav:
-  - صفحه اصلی: index.md
-  - کنفرانس‌ها:
-      - کنفرانس نخست: https://aqloangizeh.ir/The-Frist-Conference/
-  - درباره ما: about.md
+  - Home: index.md
+  - Conferences:
+      - First Conference: https://aqloangizeh.ir/The-Frist-Conference/
+  - About: about.md
