@@ -111,4 +111,7 @@ body,
 input {
   font-family: Vazirmatn, -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
 }
-
+.md-footer-meta__inner .md-typeset {
+  display: none !important;
+}
+ 
