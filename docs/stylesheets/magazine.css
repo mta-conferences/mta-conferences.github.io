@@ -102,4 +102,13 @@
   opacity: 0.8 !important;
   margin-top: 2px !important;
 }
- 
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+body,
+.md-typeset,
+.md-header,
+.md-nav,
+input {
+  font-family: Vazirmatn, -apple-system, BlinkMacSystemFont, Roboto, sans-serif !important;
+}
+
