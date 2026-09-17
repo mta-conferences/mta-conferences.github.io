@@ -66,4 +66,27 @@
   font-size: 0.75rem;
   color: var(--md-default-fg-color--light);
 }
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  border-radius: 50%;
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  width: 38px;
+  height: 38px;
+  object-fit: cover;
+}
+
+.md-header__title .md-ellipsis {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.md-header__title .md-ellipsis::after {
+  content: "Institute of Cognition & Motive";
+  font-size: 0.62rem;
+  font-weight: 400;
+  opacity: 0.85;
+  letter-spacing: 0.3px;
+  margin-top: 2px;
+}
  
