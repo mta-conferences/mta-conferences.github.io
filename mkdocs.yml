@@ -1,12 +1,10 @@
-nav:
-  - صفحه اصلی: index.md
-  - کنفرانس‌ها:
-      - کنفرانس نخست: https://aqloangizeh.ir/The-Frist-Conference/
-  - درباره ما: about.md
 site_name: اندیشکده عقل و انگیزش
 site_description: Institute of Cognition & Motive
 site_author: اندیشکده عقل و انگیزش
 site_url: https://aqloangizeh.ir
+
+use_directory_urls: true
+
 theme:
   name: material
   language: fa
@@ -25,10 +23,10 @@ theme:
         icon: material/brightness-4
         name: تغییر به حالت روشن
   features:
-    - navigation.instant
     - navigation.tabs
     - search.suggest
     - search.highlight
+
 nav:
   - صفحه اصلی: index.md
   - کنفرانس‌ها:
