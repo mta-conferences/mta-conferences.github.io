@@ -114,4 +114,84 @@ input {
 .md-footer-meta__inner .md-typeset {
   display: none !important;
 }
+.hero-slider {
+  display: flex;
+  gap: 14px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 4px 16px 4px;
+  margin: 0 -8px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hero-slider::-webkit-scrollbar {
+  display: none;
+}
+ 
+.hero-card {
+  flex: 0 0 82%;
+  max-width: 360px;
+  scroll-snap-align: center;
+  position: relative;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  text-decoration: none !important;
+  aspect-ratio: 16 / 10;
+  display: block;
+}
+ .hero-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.hero-card:hover img {
+  transform: scale(1.03);
+}
+
+.hero-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.35) 60%, transparent 100%);
+}
+ .hero-content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 14px 16px;
+  z-index: 2;
+  color: #fff !important;
+}
+
+.hero-badge {
+  display: inline-block;
+  background: rgba(43, 85, 235, 0.85);
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 2px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.hero-content h2 {
+  font-size: 0.98rem;
+  line-height: 1.5;
+  margin: 0 0 6px 0 !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+
+.hero-content small {
+  display: block;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.75) !important;
+}
  
