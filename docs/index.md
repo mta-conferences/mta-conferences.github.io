@@ -38,6 +38,13 @@ hide:
 <h3 style="margin-top: 28px; font-weight: bold;">تازه‌ترین یادداشت‌ها و رویدادها</h3>
 
 <div class="mag-list">
+  <a href="/blog/nozheh-coup/" class="mag-item">
+    <img src="nozheh.png" class="mag-thumb" alt="کودتای نوژه">
+    <div class="mag-details">
+      <h3>کودتای نوژه؛ از شکل‌گیری طرح تا شکست و پیامدهای آن</h3>
+      <span class="mag-meta">میز تاریخ | ۲۹ شهریور</span>
+    </div>
+  </a>
 
   <a href="blog/posts/conference-1.md" class="mag-item">
     <img src="logo.png" class="mag-thumb" alt="نشست نخست">
