@@ -5,6 +5,14 @@ hide:
 ---
 
 <div class="hero-slider">
+  <a href="/blog/parthians/" class="hero-card">
+    <img src="parthians.png" alt="اشکانیان">
+    <div class="hero-content">
+      <span class="hero-badge">میز تاریخ</span>
+      <h2>اشکانیان؛ از قیام علیه سلوکیان تا ظهور ساسانیان</h2>
+      <small>تحریریه عقل و انگیزش | ۲۸ شهریور</small>
+    </div>
+  </a>
 
   <a href="/blog/pomodoro/" class="hero-card">
     <img src="pomodoro.png" alt="پومودورو">
