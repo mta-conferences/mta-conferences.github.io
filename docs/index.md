@@ -4,13 +4,28 @@ hide:
   - toc
 ---
 
-<a href="/blog/pomodoro/" class="hero-card">
-  <img src="pomodoro.png" alt="پومودورو">
-  <div class="hero-content">
-    <h2>پومودورو؛ آیا ۲۵ دقیقه مطالعه می‌تواند یادگیری را بهتر کند؟</h2>
-    <small>میز شناخت و روان‌شناسی یادگیری | تحریریه عقل و انگیزش</small>
-  </div>
-</a>
+<div class="hero-slider">
+
+  <a href="/blog/pomodoro/" class="hero-card">
+    <img src="pomodoro.png" alt="پومودورو">
+    <div class="hero-content">
+      <span class="hero-badge">روان‌شناسی یادگیری</span>
+      <h2>پومودورو؛ آیا ۲۵ دقیقه مطالعه می‌تواند یادگیری را بهتر کند؟</h2>
+      <small>تحریریه عقل و انگیزش | ۲۵ شهریور</small>
+    </div>
+  </a>
+
+  <a href="https://aqloangizeh.ir/The-Frist-Conference/" class="hero-card">
+    <img src="logo.png" alt="نشست نخست">
+    <div class="hero-content">
+      <span class="hero-badge">رویدادها</span>
+      <h2>گزارش و اسلایدهای نشست نخست اندیشکده عقل و انگیزش</h2>
+      <small>رویدادهای علمی | ۱ هفته قبل</small>
+    </div>
+  </a>
+
+</div>
+
 
 <h3 style="margin-top: 28px; font-weight: bold;">تازه‌ترین یادداشت‌ها و رویدادها</h3>
 
