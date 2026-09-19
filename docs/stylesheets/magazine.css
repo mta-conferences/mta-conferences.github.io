@@ -423,4 +423,40 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 16px;
   font-weight: 500;
 }
+ .share-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 28px 0 16px;
+  padding: 12px 16px;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.share-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  margin-left: 6px;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  text-decoration: none !important;
+  color: #fff !important;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.share-btn:hover {
+  opacity: 0.85;
+}
+
+.share-btn.tg { background-color: #229ED9; }
+.share-btn.eitaa { background-color: #e67e22; }
+.share-btn.copy { background-color: #555; cursor: pointer; }
  
