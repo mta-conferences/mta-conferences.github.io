@@ -99,6 +99,11 @@ tags:
 - **Encyclopaedia Iranica** — “Hostage Crisis”
 - **The Cambridge History of Iran** / *The International Relations of the Persian Gulf*
 ---
+<div class="share-bar">
+  <span class="share-title">اشتراک‌گذاری این تحلیل:</span>
+  <a href="https://t.me/share/url?url=https://aqloangizeh.ir/blog/nozheh-coup/&text=کودتای نوژه؛ از شکل‌گیری تا پیامدها" target="_blank" class="share-btn tg">تلگرام</a>
+  <a href="https://eitaa.com/share/url?url=https://aqloangizeh.ir/blog/nozheh-coup/" target="_blank" class="share-btn eitaa">ایتا</a>
+</div>
 
 <div class="author-box">
   <img src="/logo.png" class="author-avatar" alt="تحریریه اندیشکده">
