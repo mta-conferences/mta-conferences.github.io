@@ -482,4 +482,32 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.04);
   font-weight: 700;
 }
+.takeaways-box {
+  background: rgba(26, 115, 232, 0.04);
+  border-right: 4px solid var(--md-typeset-a-color, #1a73e8);
+  border-radius: 8px 0 0 8px;
+  padding: 16px 20px;
+  margin: 24px 0;
+}
 
+.takeaways-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  color: var(--md-typeset-a-color, #1a73e8);
+}
+
+.takeaways-list {
+  margin: 0 !important;
+  padding-right: 18px !important;
+  font-size: 0.88rem;
+  line-height: 1.8;
+}
+
+.takeaways-list li {
+  margin-bottom: 6px;
+}
+ 
