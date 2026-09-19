@@ -93,3 +93,20 @@ tags:
 - **Gasiorowski, Mark J.** — “US Covert Operations toward Iran, February–November 1979”
 - **Encyclopaedia Iranica** — “Hostage Crisis”
 - **The Cambridge History of Iran** / *The International Relations of the Persian Gulf*
+---
+
+<div class="author-box">
+  <img src="/logo.png" class="author-avatar" alt="تحریریه اندیشکده">
+  <div class="author-info">
+    <h4>تحریریه اندیشکده عقل و انگیزش</h4>
+    <p>تولید و تدوین یادداشت‌های تحلیلی در حوزه تاریخ، مطالعات راهبردی و علوم انسانی.</p>
+  </div>
+</div>
+
+<div class="related-posts">
+  <h4>مقالات مرتبط پیشنهادی:</h4>
+  <ul class="related-links">
+    <li>📌 <a href="/blog/parthians/">اشکانیان؛ از قیام علیه سلوکیان تا ظهور ساسانیان</a></li>
+    <li>📌 <a href="https://aqloangizeh.ir/The-Frist-Conference/">گزارش و ارائه‌های نشست نخست اندیشکده</a></li>
+  </ul>
+</div>
