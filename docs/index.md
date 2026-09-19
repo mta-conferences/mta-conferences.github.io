@@ -76,3 +76,29 @@ hide:
   </a>
 
 </div>
+<footer class="custom-footer">
+  <div class="footer-columns">
+    <div class="footer-col">
+      <h4>اندیشکده عقل و انگیزش</h4>
+      <p>پلتفرم مطالعات راهبردی، تاریخی، علوم انسانی و شناختی؛ تلاشی برای بسط آگاهی و تفکر نقادانه.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>دسترسی سریع</h4>
+      <ul class="footer-links">
+        <li><a href="/blog/category/میز-تاریخ/">میز تاریخ</a></li>
+        <li><a href="/blog/category/علوم-انسانی/">اندیشه و علوم انسانی</a></li>
+        <li><a href="https://aqloangizeh.ir/The-Frist-Conference/">نشست‌های علمی</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>ارتباط با ما</h4>
+      <p>برای ارسال مقالات تحلیلی، نظرات و همکاری می‌توانید از طریق رایانامه در ارتباط باشید.</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    تمامی حقوق محفوظ است © ۱۴۰۵ اندیشکده عقل و انگیزش
+  </div>
+</footer>
