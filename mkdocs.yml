@@ -57,6 +57,7 @@ extra_javascript:
 
 plugins:
   - search
+  - social
   - blog:
       blog_dir: blog
       post_url_format: "{slug}"
