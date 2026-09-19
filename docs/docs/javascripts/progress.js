@@ -1,8 +1,6 @@
-document.addEventListener("scroll", function () {
-  const docElement = document.documentElement;
-  const body = document.body;
-  const scrollTop = docElement.scrollTop || body.scrollTop;
-  const scrollHeight = (docElement.scrollHeight || body.scrollHeight) - docElement.clientHeight;
+function updateProgressBar() {
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
   const progress = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
 
   let progressBar = document.getElementById("reading-progress");
@@ -12,8 +10,12 @@ document.addEventListener("scroll", function () {
     progressBar.className = "reading-progress-bar";
     document.body.appendChild(progressBar);
   }
-  progressBar.style.width = progress + "%";
-});
+  progressBar.style.width = Math.min(100, Math.max(0, progress)) + "%";
+}
+
+window.addEventListener("scroll", updateProgressBar, { passive: true });
+document.addEventListener("DOMContentLoaded", updateProgressBar);
+
 function copyArticleUrl(button) {
   const url = window.location.href;
   navigator.clipboard.writeText(url).then(function () {
