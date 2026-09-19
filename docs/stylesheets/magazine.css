@@ -336,17 +336,18 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 12px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
- .reading-progress-bar {
+.reading-progress-bar {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
   height: 3px;
-  background: var(--md-typeset-a-color, #1a73e8);
+  background-color: #3f51b5;
   width: 0%;
-  z-index: 1000;
-  transition: width 0.1s ease-out;
+  z-index: 999999 !important;
+  transition: width 0.08s ease-out;
+  pointer-events: none;
 }
+ 
  /* کادر مشخصات نویسنده یا هیئت تحریریه */
 .author-box {
   display: flex;
