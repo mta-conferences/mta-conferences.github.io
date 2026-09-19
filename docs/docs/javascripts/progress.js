@@ -14,3 +14,15 @@ document.addEventListener("scroll", function () {
   }
   progressBar.style.width = progress + "%";
 });
+function copyArticleUrl(button) {
+  const url = window.location.href;
+  navigator.clipboard.writeText(url).then(function () {
+    const originalText = button.innerText;
+    button.innerText = "کپی شد! ✓";
+    button.style.backgroundColor = "#27ae60";
+    setTimeout(function () {
+      button.innerText = originalText;
+      button.style.backgroundColor = "#555";
+    }, 2000);
+  });
+}
