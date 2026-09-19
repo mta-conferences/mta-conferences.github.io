@@ -459,4 +459,27 @@ h1, h2, h3, h4, h5, h6 {
 .share-btn.tg { background-color: #229ED9; }
 .share-btn.eitaa { background-color: #e67e22; }
 .share-btn.copy { background-color: #555; cursor: pointer; }
- 
+ /* نقل‌قول‌های تاریخی و تحلیلی */
+.md-typeset blockquote {
+  border-right: 4px solid var(--md-typeset-a-color, #1a73e8) !important;
+  border-left: none !important;
+  background: rgba(0, 0, 0, 0.02);
+  padding: 12px 18px !important;
+  border-radius: 4px 0 0 4px;
+  font-style: normal !important;
+  color: #444;
+  margin: 1.5em 0 !important;
+}
+
+/* جدول‌های مقایسه‌ای و داده‌ای داخل مقالات */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: rgba(0, 0, 0, 0.04);
+  font-weight: 700;
+}
+
