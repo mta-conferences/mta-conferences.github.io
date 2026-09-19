@@ -48,6 +48,8 @@ theme:
     - navigation.tabs
     - search.suggest
     - search.highlight
+    - navigation.top
+    - header.autohide
 extra_css:
   - stylesheets/magazine.css
 extra_javascript:
