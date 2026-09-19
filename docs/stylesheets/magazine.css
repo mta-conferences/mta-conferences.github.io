@@ -347,4 +347,68 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 1000;
   transition: width 0.1s ease-out;
 }
- 
+ /* کادر مشخصات نویسنده یا هیئت تحریریه */
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 16px;
+  margin: 32px 0 20px;
+}
+
+.author-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-info h4 {
+  margin: 0 0 4px 0 !important;
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+}
+
+.author-info p {
+  margin: 0 !important;
+  font-size: 0.82rem !important;
+  color: #666;
+  line-height: 1.6 !important;
+}
+
+/* بخش مقالات مرتبط پیشنهادی */
+.related-posts {
+  margin-top: 30px;
+  padding-top: 15px;
+  border-top: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+.related-posts h4 {
+  font-size: 0.95rem !important;
+  font-weight: 700 !important;
+  margin-bottom: 12px !important;
+}
+
+.related-links {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.related-links li {
+  margin-bottom: 8px;
+}
+
+.related-links a {
+  text-decoration: none !important;
+  font-size: 0.88rem;
+  color: var(--md-typeset-a-color, #1a73e8);
+}
+
+.related-links a:hover {
+  text-decoration: underline !important;
+}
+
