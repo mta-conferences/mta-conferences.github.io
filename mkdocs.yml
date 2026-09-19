@@ -50,6 +50,8 @@ theme:
     - search.highlight
 extra_css:
   - stylesheets/magazine.css
+extra_javascript:
+  - javascripts/progress.js
 
 plugins:
   - search
