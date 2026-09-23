@@ -34,12 +34,6 @@ hide:
 
 </div>
 
-<div class="topic-grid">
-  <a href="/blog/category/میز-تاریخ/" class="topic-chip">
-    <span class="topic-icon">🏛️</span>
-    <span class="topic-title">میز تاریخ</span>
-  </a>
-
   <a href="/blog/category/رویدادها/" class="topic-chip">
     <span class="topic-icon">🎙️</span>
     <span class="topic-title">نشست‌ها و رویداد</span>
