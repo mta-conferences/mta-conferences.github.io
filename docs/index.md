@@ -4,6 +4,74 @@ hide:
   - toc
   - footer
 ---
+<style>
+  /* سفید کردن زمینه هدر */
+  .md-header {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
+    border-bottom: 1px solid #e2e8f0 !important;
+  }
+
+  /* معکوس کردن چیدمان اجزا */
+  .md-header__inner {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 0 10px !important;
+  }
+
+  /* هدایت آیکون منوی همبرگری به راست */
+  .md-header__button.md-icon[for="__drawer"] {
+    order: 1 !important;
+    color: #0f172a !important;
+  }
+
+  /* عنوان و زیرعنوان سایت در چپ */
+  .md-header__title {
+    order: 2 !important;
+    text-align: left !important;
+    margin-right: auto !important;
+    margin-left: 0 !important;
+  }
+
+  .md-header__topic {
+    color: #0f172a !important;
+    font-weight: 800 !important;
+  }
+
+  /* قرارگیری لوگو در چپ‌ترین نقطه */
+  .md-header__button.md-logo {
+    order: 3 !important;
+    margin-right: 0 !important;
+  }
+
+  /* حذف دکمه‌های جستجو و تم از هدر */
+  .md-header__button.md-icon[for="__search"],
+  .md-header__option[data-md-component="palette"] {
+    display: none !important;
+  }
+
+  /* شاخص عمودی نارنجی کنار تیتر تازه‌ترین‌ها */
+  h3[style*="margin-top"] {
+    position: relative;
+    padding-right: 14px;
+    font-weight: 800 !important;
+    color: #0f172a;
+  }
+
+  h3[style*="margin-top"]::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 15%;
+    height: 70%;
+    width: 4px;
+    background-color: #ff6a00;
+    border-radius: 4px;
+  }
+</style>
+
 
 
 <div class="hero-slider">
