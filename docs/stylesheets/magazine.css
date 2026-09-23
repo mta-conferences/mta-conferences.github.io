@@ -566,3 +566,80 @@ h1, h2, h3, h4, h5, h6 {
   transform: translateY(-3px);
   box-shadow: 0 4px 10px rgba(255, 106, 0, 0.35);
 }
+/* ==========================================
+   طراحی هدر اختصاصی به سبک دیجیاتو
+   ========================================== */
+
+/* سفید کردن زمینه هدر و سایه بسیار ملایم */
+.md-header {
+  background-color: #ffffff !important;
+  color: #1e293b !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06) !important;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* تغییر چیدمان هدر به حالت چپ‌به‌راست (لوگو سمت چپ، منو سمت راست) */
+.md-header__inner {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 12px !important;
+}
+
+/* هدایت لوگو و عنوان سایت به سمت چپ */
+.md-header__title {
+  order: 2 !important;
+  margin-left: 0 !important;
+  margin-right: auto !important;
+  text-align: left !important;
+}
+
+.md-header__topic {
+  color: #0f172a !important;
+  font-weight: 800 !important;
+  font-size: 1.05rem !important;
+}
+
+/* هدایت دکمه منوی همبرگری به سمت راست */
+.md-header__button.md-icon[for="__drawer"] {
+  order: 1 !important;
+  color: #1e293b !important;
+}
+
+/* دکمه لوگو */
+.md-header__button.md-logo {
+  order: 3 !important;
+  margin-right: 0 !important;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  border-radius: 6px;
+}
+
+/* مخفی‌سازی دکمه جستجو و پالت رنگ از هدر بالا برای ظاهر مینیمال شبیه عکس */
+.md-header__button.md-icon[data-md-component="search"],
+.md-header__button.md-icon[for="__search"],
+.md-header__option[data-md-component="palette"] {
+  display: none !important;
+}
+
+/* هماهنگی تیتر بخش مقالات با شاخص رنگی دیجیاتو */
+h3[style*="margin-top"] {
+  position: relative;
+  padding-right: 14px;
+  font-weight: 800 !important;
+  color: #0f172a;
+}
+
+h3[style*="margin-top"]::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 15%;
+  height: 70%;
+  width: 4px;
+  background-color: #ff6a00; /* خط عمودی نارنجی دیجیاتو کنار تیتر */
+  border-radius: 4px;
+}
