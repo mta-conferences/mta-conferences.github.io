@@ -12,22 +12,23 @@ hide:
     border-bottom: 1px solid #e2e8f0 !important;
   }
 
-  /* معکوس کردن چیدمان اجزا */
+    /* چیدمان دقیق چپ‌به‌راست دیجیاتویی */
   .md-header__inner {
     display: flex !important;
-    flex-direction: row-reverse !important;
+    flex-direction: row !important;
     justify-content: space-between !important;
     align-items: center !important;
-    padding: 0 10px !important;
+    padding: 0 16px !important;
   }
 
-  /* هدایت آیکون منوی همبرگری به راست */
-  .md-header__button.md-icon[for="__drawer"] {
+  /* لوگو سمت چپ */
+  .md-header__button.md-logo {
     order: 1 !important;
-    color: #0f172a !important;
+    margin-right: 0 !important;
+    margin-left: 8px !important;
   }
 
-  /* عنوان و زیرعنوان سایت در چپ */
+  /* نام و عنوان سایت کنار لوگو در سمت چپ */
   .md-header__title {
     order: 2 !important;
     text-align: left !important;
@@ -35,15 +36,12 @@ hide:
     margin-left: 0 !important;
   }
 
-  .md-header__topic {
+  /* دکمه منوی همبرگری در انتهای راست */
+  .md-header__button.md-icon[for="__drawer"] {
+    order: 3 !important;
     color: #0f172a !important;
-    font-weight: 800 !important;
   }
 
-  /* قرارگیری لوگو در چپ‌ترین نقطه */
-  .md-header__button.md-logo {
-    order: 3 !important;
-    margin-right: 0 !important;
   }
 
   /* حذف دکمه‌های جستجو و تم از هدر */
