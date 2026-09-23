@@ -57,11 +57,7 @@ hide:
   </a>
 
 </div>
-<div class="social-strip-footer">
-  <div class="social-strip-title">اندیشکده عقل و انگیزش در شبکه‌های اجتماعی</div>
-  <div class="social-strip-icons">
-    <!-- تلگرام -->
-    <div class="social-strip-footer">
+
   <div class="social-strip-title">ارتباط مستقیم با تحریریه در تلگرام</div>
   <div class="social-strip-icons">
     <!-- آیدی پیام شخصی تلگرام -->
