@@ -2,7 +2,9 @@
 hide:
   - navigation
   - toc
+  - footer
 ---
+
 
 <div class="hero-slider">
   <a href="/blog/parthians/" class="hero-card">
