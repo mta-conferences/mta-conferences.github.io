@@ -11,45 +11,46 @@ hide:
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
     border-bottom: 1px solid #e2e8f0 !important;
   }
-
-      /* تثبیت چیدمان دقیق دیجیاتویی */
-  .md-header__inner {
-    direction: ltr !important;
+  /* ساختار والد: فلکس معکوس */
+  .md-header__inner.md-grid {
     display: flex !important;
-    justify-content: space-between !important;
+    flex-direction: row-reverse !important;
+    justify-content: flex-start !important;
     align-items: center !important;
-    padding: 0 16px !important;
+    padding: 0 14px !important;
   }
 
-  /* لوگو در منتهی‌الیه چپ */
+  /* ۱. منوی سه خط (همبرگری) در منتهی‌الیه راست */
+  .md-header__button[for="__drawer"] {
+    order: 10 !important;
+    margin-right: 0 !important;
+    margin-left: auto !important;
+    color: #0f172a !important;
+  }
+
+  /* ۲. لوگو در منتهی‌الیه چپ */
   .md-header__button.md-logo {
     order: 1 !important;
-    margin: 0 10px 0 0 !important;
+    margin-left: 0 !important;
+    margin-right: 8px !important;
   }
 
-  /* عنوان و نام سایت در چپ کنار لوگو */
+  /* ۳. عنوان و نام سایت در سمت چپ کنار لوگو */
   .md-header__title {
     order: 2 !important;
-    text-align: left !important;
-    margin-right: auto !important;
     margin-left: 0 !important;
-    direction: rtl !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+    flex-grow: 0 !important;
   }
 
   .md-header__topic {
-    text-align: left !important;
     color: #0f172a !important;
     font-weight: 800 !important;
+    text-align: left !important;
   }
 
-  /* آیکون منوی همبرگری در منتهی‌الیه راست */
-  .md-header__button.md-icon[for="__drawer"] {
-    order: 3 !important;
-    margin-left: auto !important;
-    margin-right: 0 !important;
-    color: #0f172a !important;
-  }
-
+ 
   }
 
   /* حذف دکمه‌های جستجو و تم از هدر */
