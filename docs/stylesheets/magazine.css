@@ -515,3 +515,54 @@ h1, h2, h3, h4, h5, h6 {
   display: none !important;
 }
 
+/* نوار شبکه‌های اجتماعی اختصاصی فوتر */
+.social-strip-footer {
+  background-color: #0b2545;
+  padding: 30px 15px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 35px 0 15px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.social-strip-title {
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.social-strip-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.social-strip-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1.5px solid #ff6a00;
+  color: #ff6a00 !important;
+  text-decoration: none !important;
+  transition: all 0.25s ease;
+  background-color: rgba(255, 106, 0, 0.05);
+}
+
+.social-strip-item svg {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.social-strip-item:hover {
+  background-color: #ff6a00;
+  color: #ffffff !important;
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(255, 106, 0, 0.35);
+}
