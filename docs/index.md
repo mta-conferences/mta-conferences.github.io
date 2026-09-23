@@ -35,20 +35,29 @@ hide:
     margin-right: 8px !important;
   }
 
-  /* ۳. عنوان و نام سایت در سمت چپ کنار لوگو */
+  /* ۳. نمایش و تثبیت عنوان کنار لوگو در سمت چپ */
   .md-header__title {
     order: 2 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    text-align: left !important;
-    flex-grow: 0 !important;
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    margin-left: 10px !important;
+    margin-right: auto !important;
+    text-align: right !important;
   }
 
   .md-header__topic {
+    display: block !important;
+    white-space: nowrap !important;
+  }
+
+  .md-header__ellipsis {
     color: #0f172a !important;
     font-weight: 800 !important;
-    text-align: left !important;
+    font-size: 1rem !important;
+    overflow: visible !important;
   }
+
 
  
   }
