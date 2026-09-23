@@ -12,33 +12,41 @@ hide:
     border-bottom: 1px solid #e2e8f0 !important;
   }
 
-    /* چیدمان دقیق چپ‌به‌راست دیجیاتویی */
+      /* تثبیت چیدمان دقیق دیجیاتویی */
   .md-header__inner {
+    direction: ltr !important;
     display: flex !important;
-    flex-direction: row !important;
     justify-content: space-between !important;
     align-items: center !important;
     padding: 0 16px !important;
   }
 
-  /* لوگو سمت چپ */
+  /* لوگو در منتهی‌الیه چپ */
   .md-header__button.md-logo {
     order: 1 !important;
-    margin-right: 0 !important;
-    margin-left: 8px !important;
+    margin: 0 10px 0 0 !important;
   }
 
-  /* نام و عنوان سایت کنار لوگو در سمت چپ */
+  /* عنوان و نام سایت در چپ کنار لوگو */
   .md-header__title {
     order: 2 !important;
     text-align: left !important;
     margin-right: auto !important;
     margin-left: 0 !important;
+    direction: rtl !important;
   }
 
-  /* دکمه منوی همبرگری در انتهای راست */
+  .md-header__topic {
+    text-align: left !important;
+    color: #0f172a !important;
+    font-weight: 800 !important;
+  }
+
+  /* آیکون منوی همبرگری در منتهی‌الیه راست */
   .md-header__button.md-icon[for="__drawer"] {
     order: 3 !important;
+    margin-left: auto !important;
+    margin-right: 0 !important;
     color: #0f172a !important;
   }
 
