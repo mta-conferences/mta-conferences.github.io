@@ -34,21 +34,6 @@ hide:
 
 </div>
 
-  <a href="/blog/category/رویدادها/" class="topic-chip">
-    <span class="topic-icon">🎙️</span>
-    <span class="topic-title">نشست‌ها و رویداد</span>
-  </a>
-
-  <a href="/blog/category/علوم-انسانی/" class="topic-chip">
-    <span class="topic-icon">💡</span>
-    <span class="topic-title">اندیشه و علوم انسانی</span>
-  </a>
-
-  <a href="/blog/category/یادداشت‌ها/" class="topic-chip">
-    <span class="topic-icon">📝</span>
-    <span class="topic-title">یادداشت‌های تحلیلی</span>
-  </a>
-</div>
 
 <h3 style="margin-top: 28px; font-weight: bold;">تازه‌ترین یادداشت‌ها و رویدادها</h3>
 
