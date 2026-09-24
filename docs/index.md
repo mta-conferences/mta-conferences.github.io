@@ -11,50 +11,53 @@ hide:
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
     border-bottom: 1px solid #e2e8f0 !important;
   }
-   {  /* تثبیت هدر دیجیاتویی در تمام ابعاد */
+    /* ۱. تنظیم هدر با جهت چپ به راست اجباری */
   .md-header__inner {
     display: flex !important;
-    align-items: center !important;
+    direction: ltr !important;
     justify-content: space-between !important;
+    align-items: center !important;
     padding: 0 16px !important;
   }
 
-  /* ۱. گروه سمت چپ: لوگو */
+  /* ۲. لوگو در ابتدای سمت چپ */
   .md-header__button.md-logo {
     order: 1 !important;
     margin: 0 !important;
+    margin-right: 8px !important;
   }
 
-  /* ۲. گروه سمت چپ: عنوان و متن سایت */
+  /* ۳. عنوان و توضیح سایت کنار لوگو در چپ */
   .md-header__title {
     order: 2 !important;
     display: flex !important;
     align-items: center !important;
-    margin-left: 10px !important;
     margin-right: auto !important;
+    margin-left: 0 !important;
+    text-align: right !important;
     flex: initial !important;
   }
 
   .md-header__topic {
     display: block !important;
+    direction: rtl !important;
   }
 
   .md-header__ellipsis {
     display: block !important;
     color: #0f172a !important;
     font-weight: 800 !important;
-    font-size: 1rem !important;
+    font-size: 0.95rem !important;
     white-space: nowrap !important;
   }
 
-  /* ۳. گروه سمت راست: دکمه منوی همبرگری */
+  /* ۴. منوی همبرگری در انتهای سمت راست */
   .md-header__button[for="__drawer"] {
     order: 3 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+    margin: 0 !important;
     color: #0f172a !important;
   }
-  /* شاخص عمودی نارنجی کنار تیتر تازه‌ترین‌ها */
+
   h3[style*="margin-top"] {
     position: relative;
     padding-right: 14px;
