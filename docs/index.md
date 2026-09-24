@@ -12,58 +12,56 @@ hide:
     border-bottom: 1px solid #e2e8f0 !important;
   }
   /* ساختار والد: فلکس معکوس */
+    /* ۱. والد هدر: چیدمان بدون معکوس‌سازی با فاصله بین دو سمت */
   .md-header__inner.md-grid {
     display: flex !important;
-    flex-direction: row-reverse !important;
-    justify-content: flex-start !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
     align-items: center !important;
-    padding: 0 14px !important;
+    padding: 0 16px !important;
   }
 
-  /* ۱. منوی سه خط (همبرگری) در منتهی‌الیه راست */
+  /* ۲. دکمه منو همبرگری برود سمت راست */
   .md-header__button[for="__drawer"] {
-    order: 10 !important;
-    margin-right: 0 !important;
+    order: 3 !important;
     margin-left: auto !important;
+    margin-right: 0 !important;
     color: #0f172a !important;
   }
 
-  /* ۲. لوگو در منتهی‌الیه چپ */
+  /* ۳. لوگو بچسبد به چپ */
   .md-header__button.md-logo {
     order: 1 !important;
     margin-left: 0 !important;
-    margin-right: 8px !important;
+    margin-right: 10px !important;
   }
 
-  /* ۳. نمایش و تثبیت عنوان کنار لوگو در سمت چپ */
+  /* ۴. عنوان و متن سایت در کنار لوگو در سمت چپ */
   .md-header__title {
     order: 2 !important;
     display: flex !important;
     visibility: visible !important;
     opacity: 1 !important;
-    margin-left: 10px !important;
+    margin-left: 0 !important;
     margin-right: auto !important;
-    text-align: right !important;
+    text-align: left !important;
+    flex-grow: 0 !important;
   }
 
   .md-header__topic {
     display: block !important;
-    white-space: nowrap !important;
+    text-align: left !important;
   }
 
   .md-header__ellipsis {
     color: #0f172a !important;
     font-weight: 800 !important;
-    font-size: 1rem !important;
+    font-size: 0.95rem !important;
     overflow: visible !important;
+    white-space: nowrap !important;
   }
 
-
- 
-  }
-
-  /* حذف دکمه‌های جستجو و تم از هدر */
-  .md-header__button.md-icon[for="__search"],
+  
   .md-header__option[data-md-component="palette"] {
     display: none !important;
   }
