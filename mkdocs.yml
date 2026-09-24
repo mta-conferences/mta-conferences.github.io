@@ -6,8 +6,8 @@ site_url: "https://aqloangizeh.ir"
 use_directory_urls: true
 theme:
   name: material
-  logo: logo.png
-  favicon: logo.png
+  logo: logo.svg
+  favicon: logo.svg
   language: fa
   direction: rtl
   palette:
