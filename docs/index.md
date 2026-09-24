@@ -11,61 +11,49 @@ hide:
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05) !important;
     border-bottom: 1px solid #e2e8f0 !important;
   }
-  /* ساختار والد: فلکس معکوس */
-    /* ۱. والد هدر: چیدمان بدون معکوس‌سازی با فاصله بین دو سمت */
-  .md-header__inner.md-grid {
+   {  /* تثبیت هدر دیجیاتویی در تمام ابعاد */
+  .md-header__inner {
     display: flex !important;
-    flex-direction: row !important;
-    justify-content: space-between !important;
     align-items: center !important;
+    justify-content: space-between !important;
     padding: 0 16px !important;
   }
 
-  /* ۲. دکمه منو همبرگری برود سمت راست */
-  .md-header__button[for="__drawer"] {
-    order: 3 !important;
-    margin-left: auto !important;
-    margin-right: 0 !important;
-    color: #0f172a !important;
-  }
-
-  /* ۳. لوگو بچسبد به چپ */
+  /* ۱. گروه سمت چپ: لوگو */
   .md-header__button.md-logo {
     order: 1 !important;
-    margin-left: 0 !important;
-    margin-right: 10px !important;
+    margin: 0 !important;
   }
 
-  /* ۴. عنوان و متن سایت در کنار لوگو در سمت چپ */
+  /* ۲. گروه سمت چپ: عنوان و متن سایت */
   .md-header__title {
     order: 2 !important;
     display: flex !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    margin-left: 0 !important;
+    align-items: center !important;
+    margin-left: 10px !important;
     margin-right: auto !important;
-    text-align: left !important;
-    flex-grow: 0 !important;
+    flex: initial !important;
   }
 
   .md-header__topic {
     display: block !important;
-    text-align: left !important;
   }
 
   .md-header__ellipsis {
+    display: block !important;
     color: #0f172a !important;
     font-weight: 800 !important;
-    font-size: 0.95rem !important;
-    overflow: visible !important;
+    font-size: 1rem !important;
     white-space: nowrap !important;
   }
 
-  
-  .md-header__option[data-md-component="palette"] {
-    display: none !important;
+  /* ۳. گروه سمت راست: دکمه منوی همبرگری */
+  .md-header__button[for="__drawer"] {
+    order: 3 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    color: #0f172a !important;
   }
-
   /* شاخص عمودی نارنجی کنار تیتر تازه‌ترین‌ها */
   h3[style*="margin-top"] {
     position: relative;
